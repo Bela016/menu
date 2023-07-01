@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit:contain;
+    margin: auto;
+    display: block
+
+}
+div.scrollmenu {
+    background-color: #ff5c10;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 17px;
+    text-decoration: none;
+  }
+div.scrollmenu a:hover {
+    background-color: #020202bc;
+  }
+p{
+    text-align: center;
+}

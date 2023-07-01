@@ -1,0 +1,100 @@
+
+.img {
+    height: 700px;
+    width: 600px;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+  
+}
+div.scrollmenu {
+    background-color: #00000041;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 17px;
+    text-decoration: none;
+  }
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+  .botoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .botoes button {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.279);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+  }
+  
+  .botoes button:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(251, 109, 0);
+    z-index: -1;
+    transition: transform 0.3s ease;
+    transform: skewX(-20deg);
+  }
+  
+  .botoes button:hover:before {
+    transform: translateX(100%);
+  }
+  
+  .botoes button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+/*
+
+width:  Defina a largura dos botões 
+height:  Defina a altura dos botões 
+margin: Define uma margem externa 
+border: none;: Remove a borda dos botões
+cursor: pointer;: Define o cursor do mouse como um ponteiro quando ele estiver sobre os botões, indicando que eles podem ser clicados.
+position: relative;: Define a posição dos botões 
+overflow: hidden;: Define que qualquer conteúdo que ultrapasse o tamanho dos botões ficará oculto.
+border-radius:  arredonda os cantos dos botoes
+transition: transform  Define uma transição suave dependendo dos segundos que se coloca 
+/////.botoes button:before indica q as regras de estilo a seguir serão aplicadas ao elemento elemento beforedos botões.
+ Esse elemento é inserido antes do conteúdo do botão.////
+///content:  Define o conteúdo do elemento como uma string vazia.///
+position: absolute;: Define a posição do elemento como absoluta, em relação ao seu elemento pai.
+top: 0;: Define a posição vertical do elemento ao topo do elemento pai.
+left: -100%;: Define a posição horizontal do elemento  posicionado à esquerda, 
+mas deslocada 100% para a esquerda em relação ao elemento pai, tornando-o inicialmente invisível.
+width: 100%;: Define a largura do elemento de deslizar como 100%, para que ele cubra completamente o botão.
+height: 100%;: Defina a altura do elemento de deslizar como 100%, para que ele cubra completamente o botão.
+background-color Define a cor de fundo como um laranja escuro.
+z-index: -1;: Define o índice de empilhamento do pseudo-elemento beforecomo -1, fazendo com que ele fique atrás do conteúdo do botão.
+`transição: transformar
+*/  
+  

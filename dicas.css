@@ -1,0 +1,47 @@
+body{
+    font-family: 'Arial Narrow Bold', sans-serif;
+  background-color: rgb(0, 0, 0);
+}
+div.scrollmenu {
+    background-color: #00000041;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 17px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+.avisos{
+  padding: 50px 450px;
+}
+h1{
+    font-family:'Arial Narrow Bold', sans-serif;
+    color: #ed5a0e;
+    font-size: 50px;
+    text-align: center;
+}
+p{
+    font-weight: bold;
+    color: #FFF;
+    text-align: justify;
+    
+}
+footer {
+    position: absolute;
+    color: #FFF;
+    width: 100%;
+    text-align: center;
+    
+}
+img{
+  margin: auto;
+  display: block;
+}

@@ -1,0 +1,35 @@
+div.scrollmenu {
+    background-color: #00000041;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 17px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+
+.titulo{
+    font-size: 70px;
+    font-family:'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+   
+}
+footer{
+    font-size: 15px;
+    width: 110%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ed5a0e;
+    color: #ffffff;
+    box-sizing: border-box;
+}
